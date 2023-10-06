@@ -1,0 +1,23 @@
+{
+  "name": "n315-booknook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "sass scss/styles.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaCrosby23/N315-Booknook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AaCrosby23/N315-Booknook/issues"
+  },
+  "homepage": "https://github.com/AaCrosby23/N315-Booknook#readme",
+  "devDependencies": {
+    "sass": "^1.69.0"
+  }
+}
