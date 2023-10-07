@@ -1,3 +1,51 @@
+@font-face {
+  font-family: SegoeUI;
+  src: url("../assets/fonts/segoeui.ttf");
+}
+@font-face {
+  font-family: SegoeUIb;
+  src: url("../assets/fonts/segoeuib.ttf");
+}
+@font-face {
+  font-family: SegoeUIi;
+  src: url("../assets/fonts/segoeuii.ttf");
+}
+@font-face {
+  font-family: SegoeUIl;
+  src: url("../assets/fonts/segoeuil.ttf");
+}
+@font-face {
+  font-family: SegoeUIsl;
+  src: url("../assets/fonts/segoeuisl.ttf");
+}
+@font-face {
+  font-family: SegoeUIz;
+  src: url("../assets/fonts/segoeuiz.ttf");
+}
+@font-face {
+  font-family: SeguiBl;
+  src: url("../assets/fonts/seguibl.ttf");
+}
+@font-face {
+  font-family: SeguiBli;
+  src: url("../assets/fonts/seguibli.ttf");
+}
+@font-face {
+  font-family: SeguiLi;
+  src: url("../assets/fonts/seguili.ttf");
+}
+@font-face {
+  font-family: SeguiSb;
+  src: url("../assets/fonts/seguisb.ttf");
+}
+@font-face {
+  font-family: SeguiSbi;
+  src: url("../assets/fonts/seguisbi.ttf");
+}
+@font-face {
+  font-family: SeguiSli;
+  src: url("../assets/fonts/seguisli.ttf");
+}
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +58,76 @@ html, body {
 
 h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 16px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+nav input {
+  width: 604px;
+  height: 44px;
+  background-color: #C4D0D3;
+  color: #6B7274;
+  border: none;
+}
+nav a {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  font-family: SegoeUI;
+}
+nav a img {
+  width: 73px;
+  height: 73px;
+}
+nav .bookNook img {
+  margin-left: 33px;
+  margin-right: 23px;
+}
+nav .account img {
+  width: 47px;
+  height: 47px;
+  margin-left: 23px;
+}
+nav .shoppingCart img {
+  width: 52px;
+  height: 52px;
+  margin-left: 23px;
+  margin-right: 77px;
+}
+
+.homeHero {
+  display: block;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 864px;
+}
+.homeHero .backgroundHomeHero {
+  background-image: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), url("../assets/img/home-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1500px;
+  height: 530px;
+  margin: 0 auto;
+}
+.homeHero .backgroundHomeHero h1 {
+  font-family: SegoeUI;
+  font-size: 32px;
+  color: #ffffff;
+}
+.homeHero .backgroundHomeHero h2 {
+  font-family: SegoeUI;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=styles.css.map */

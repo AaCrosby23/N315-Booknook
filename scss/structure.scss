@@ -1,3 +1,53 @@
+@font-face {
+    font-family: SegoeUI;
+    src: url('../assets/fonts/segoeui.ttf');
+}
+
+@font-face {
+    font-family: SegoeUIb;
+    src: url('../assets/fonts/segoeuib.ttf');
+}
+@font-face {
+    font-family: SegoeUIi;
+    src: url('../assets/fonts/segoeuii.ttf');
+}
+@font-face {
+    font-family: SegoeUIl;
+    src: url('../assets/fonts/segoeuil.ttf');
+}
+@font-face {
+    font-family: SegoeUIsl;
+    src: url('../assets/fonts/segoeuisl.ttf');
+}
+@font-face {
+    font-family: SegoeUIz;
+    src: url('../assets/fonts/segoeuiz.ttf');
+}
+@font-face {
+    font-family: SeguiBl;
+    src: url('../assets/fonts/seguibl.ttf');
+}
+@font-face {
+    font-family: SeguiBli;
+    src: url('../assets/fonts/seguibli.ttf');
+}
+@font-face {
+    font-family: SeguiLi;
+    src: url('../assets/fonts/seguili.ttf');
+}
+@font-face {
+    font-family: SeguiSb;
+    src: url('../assets/fonts/seguisb.ttf');
+}
+@font-face {
+    font-family: SeguiSbi;
+    src: url('../assets/fonts/seguisbi.ttf');
+}
+@font-face {
+    font-family: SeguiSli;
+    src: url('../assets/fonts/seguisli.ttf');
+}
+
 * {
  margin: 0;
  padding: 0;
@@ -8,4 +58,62 @@ html, body {
 }
 h1, h2, h3, h4, h5, h6, p {
  margin-bottom: 16px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+
+    // margin-right: 77px;
+    // border-bottom: 2px solid black;
+
+    input{
+        width: 604px;
+        height: 44px;
+        background-color: #C4D0D3;
+        color: #6B7274;
+        border: none;
+    }
+
+    a{
+        font-size: 16px;
+        color: black;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        font-family: SegoeUI;
+
+        img{
+            width: 73px;
+            height: 73px;
+        }
+    }
+    
+    .bookNook{
+        img{
+            margin-left: 33px;
+            margin-right: 23px;
+        }
+    }
+
+    .account{
+        img{
+            width: 47px;
+            height: 47px;
+            margin-left: 23px;
+        }
+    }
+    
+    .shoppingCart{
+        img{
+            width: 52px;
+            height: 52px;
+            margin-left: 23px;
+            margin-right: 77px;
+        }
+    }
 }
